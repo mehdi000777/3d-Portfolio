@@ -39,6 +39,7 @@ import admin from './admin.png';
 import messanger from './messanger.png';
 import messangerNextjs from './messangerNextjs.png';
 import threeD from './3d.png'
+import webNews from './webNews.png'
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   admin,
   messanger,
   messangerNextjs,
-  threeD
+  threeD,
+  webNews
 };

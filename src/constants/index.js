@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -28,7 +27,8 @@ import {
   messanger,
   messangerNextjs,
   admin,
-  threeD
+  threeD,
+  webNews
 } from "../assets";
 
 export const navLinks = [
@@ -388,6 +388,32 @@ const projects = [
     image: threeD,
     source_code_link: "https://github.com/mehdi000777/3dEnginJS",
     web_link: "https://github.com/mehdi000777/3dEnginJS"
+  },
+  {
+    name: "News WebSite",
+    description:
+      "A mern news website",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "magenta-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webNews,
+    source_code_link: "https://github.com/mehdi000777/newsWeb",
+    web_link: "https://nojavannews.onrender.com"
   },
 ];
 
